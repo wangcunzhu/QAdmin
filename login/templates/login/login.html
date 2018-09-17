@@ -23,7 +23,7 @@
     <link href="{% static 'build/css/custom.min.css' %}" rel="stylesheet">
   </head>
 
-  <body class="login">
+ <body class="login">
     <div>
       <a class="hiddenanchor" id="signup"></a>
       <a class="hiddenanchor" id="signin"></a>
@@ -34,13 +34,13 @@
             <form>
               <h1>Login Form</h1>
               <div>
-                <input type="text" class="form-control" placeholder="Username" required="" name = "username"/>
+                <input type="text" class="form-control" placeholder="Username" required="" />
               </div>
               <div>
-                <input type="password" class="form-control" placeholder="Password" required="" name = "password"/>
+                <input type="password" class="form-control" placeholder="Password" required="" />
               </div>
               <div>
-                <a class="btn btn-default submit" href="{% url 'login:do_login' %}">Log in</a>
+                <a class="btn btn-default submit" href="index.html">Log in</a>
                 <a class="reset_pass" href="#">Lost your password?</a>
               </div>
 
